@@ -1,0 +1,17 @@
+#!/bin/bash
+convert() {
+    filename=$(basename "$1")
+    extension="${filename##*.}"
+    filename="${filename%.*}"
+    "$2"/ffmpeg -i "$1" -b:a 320k -c:v libx264 -crf 17 -pix_fmt yuv420p -strict -2 "output/$filename.mp4"
+    echo "Conversion Complete!"
+}
+# get current dir
+currentDir=$(dirname "$0")
+echo $currentDir;
+cd "$currentDir";
+# convert vid
+for f in *.mp4;
+do
+    convert "$f" "$currentDir"
+done
