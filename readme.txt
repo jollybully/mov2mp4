@@ -13,6 +13,9 @@ This toolset provides a simple way to re-encode video files in bulk, allowing yo
 - `mov2mp4`: Re-encodes all .mov files in the folder to .mp4 format.
 - `mp42mov`: Re-encodes all .mp4 files in the folder to .mov format.
 - `mp42mp4`: Re-encodes all .mp4 files in the folder to .mp4 format again. This can be useful for fixing multiple corrupted or broken .mp4 files at once.
+- `mp42mp3`: Converts mp4 to mp3.
+- `mp42wav`: Converts mp4 to wav.
+
 
 ## Running Unsigned Scripts on MacOS
 
