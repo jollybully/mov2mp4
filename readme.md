@@ -16,7 +16,6 @@ This toolset provides a simple way to re-encode video files in bulk, allowing yo
 - `mp42mp3`: Converts mp4 to mp3.
 - `mp42wav`: Converts mp4 to wav.
 
-
 ## Running Unsigned Scripts on MacOS
 
 If you're running these tools on MacOS, you might encounter security settings that prevent you from running unsigned scripts. Here's how to allow the script to run:
