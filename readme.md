@@ -30,3 +30,15 @@ If you're running these tools on MacOS, you might encounter security settings th
 Note: The steps above will need to be repeated for each new script you want to run.
 
 For more details about running unsigned scripts on MacOS, you can refer to Apple's official [support page](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac).
+
+## Third-Party Software
+
+This project includes FFmpeg, which is used for video and audio processing. FFmpeg is distributed under the GNU Lesser General Public License (LGPL) version 2.1 or later.
+
+### FFmpeg Attribution
+
+FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
+
+This software uses libraries from the FFmpeg project under the LGPLv2.1. The source code for FFmpeg can be downloaded from [https://ffmpeg.org/](https://ffmpeg.org/).
+
+For full license details, please see the [FFmpeg License and Legal Considerations](https://ffmpeg.org/legal.html) page.
